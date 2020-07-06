@@ -1,6 +1,6 @@
 .header {
     text-align: center;
-    background-color: blanchedalmond;
+    background-image: url("https://gfycat.com/breakablecarefreecurlew");
     height: 125px;
     font-size: 70px;
     font-family: cursive;
@@ -18,24 +18,27 @@ font-family: fantasy;
     border: 2px outset #000000;
 }
 
-    color: crimson;
-    background-image: url("https://media.giphy.com/media/2sebI6np6MGKvoOGZK/giphy.gif");
-    grid-area: footer;
-}
 
-.section {
-  
-    
-   
 
-}
-.main {
-}
+
+
+.flex-container {
+        width: 775px;
+        text-align: left;
+        display: flex;
+        justify-content: space-around;
+        
+        
+      }
+
+
+
 .p{
+    flex-wrap: wrap;
     width: 600px;
     text-align: justify;
 
 }
-.list{
-   
+.quiz {
+    text-align: center;
 }

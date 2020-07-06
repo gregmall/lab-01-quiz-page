@@ -41,5 +41,7 @@ if (confirmedYes(answer3)){
 
 console.log(score);
 
-resultSpan.textContent = name + " " + score;
+resultSpan.textContent = name + "  "  +  score;
+
+
 });
