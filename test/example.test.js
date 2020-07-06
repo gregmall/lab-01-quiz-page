@@ -1,6 +1,6 @@
 // IMPORT MODULES under test here:
 // import example from '../example.js';
-import {confirmedYes} from '../quiz-functions';
+import {confirmedYes} from '../quiz-functions.js';
 
 
 const test = QUnit.test;
@@ -9,7 +9,7 @@ test('it should return true with anything that starts with a Y', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const word1 = 'yes';
-    const word2= 'yep';
+    const word2 = 'yep';
     const word3 = 'yeah';
     const word4 = 'ya';
     const expected = true;

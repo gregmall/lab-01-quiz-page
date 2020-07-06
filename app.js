@@ -13,6 +13,11 @@ myButton.addEventListener('click', () =>{
     
     const name = prompt ('What is your name?');
     console.log(name);
+    const really = confirm('Are you sure you want to take this difficult test?');
+    if (really === false){
+        console.log("ok");
+        return;
+    }
     const answer1 = prompt('Are cats mammals?');
     const answer2 = prompt('Do cats like to chase laser lights?');
     const answer3 = prompt('Are cats pretty much the best pet in the world');
