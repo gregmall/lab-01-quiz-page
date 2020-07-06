@@ -3,4 +3,4 @@ export function confirmedYes(word) {
     const isY = firstLetter ==='y' || firstLetter ==='Y';
 
     return isY;
-}
+}   

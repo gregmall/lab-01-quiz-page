@@ -40,8 +40,11 @@ if (confirmedYes(answer3)){
 }
 
 console.log(score);
-
-resultSpan.textContent = name + "  "  +  score;
+if (score ===3){
+    resultSpan.textContent = 'Hi ' + name + ', your score is: '  +  score + '.  You are a smart person';
+}else{
+    resultSpan.textContent = 'Hi ' + name + ', your score is: ' + score + '. Maybe you should meet some cats.'
+}
 
 
 });

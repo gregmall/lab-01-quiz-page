@@ -42,3 +42,10 @@ font-family: fantasy;
 .quiz {
     text-align: center;
 }
+.button {
+    background-color: blueviolet;
+    font-size: 30px;
+}
+.result{
+    font-size: 20px;
+}
