@@ -41,9 +41,9 @@ if (confirmedYes(answer3)){
 
 console.log(score);
 if (score ===3){
-    resultSpan.textContent = 'Hi ' + name + ', your score is: '  +  score + '.  You are a smart person';
+    resultSpan.textContent = 'Hi ' + name + ', your score is: '  +  score + ' out of 3. You are a smart person';
 }else{
-    resultSpan.textContent = 'Hi ' + name + ', your score is: ' + score + '. Maybe you should meet some cats.'
+    resultSpan.textContent = 'Hi ' + name + ', your score is: ' + score + ' out of 3. Maybe you should meet some cats.'
 }
 
 

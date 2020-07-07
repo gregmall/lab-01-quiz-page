@@ -1,13 +1,16 @@
 .header {
+    
+    max-width: 948px;
     text-align: center;
-    background-image: url("https://gfycat.com/breakablecarefreecurlew");
+    background-image: url("https://media.giphy.com/media/9V73lQx5Sa7r14IDqT/giphy.gif");
     height: 125px;
     font-size: 70px;
     font-family: cursive;
 
 }
 .body {
-    background:3C467C;
+
+    
 background: -moz-radial-gradient(center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
 background: -webkit-radial-gradient(center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
 background: radial-gradient(ellipse at center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
@@ -17,13 +20,21 @@ font-family: fantasy;
 .border {
     border: 2px outset #000000;
 }
+.h {
+    text-align: center;
+    color: rosybrown;
+}
 
-
+.main {
+    max-width: 948px;
+}
 
 
 
 .flex-container {
-        width: 775px;
+        font-family: monospace;
+        font-size: 15px;
+        width: 948px;
         text-align: left;
         display: flex;
         justify-content: space-around;
@@ -34,8 +45,10 @@ font-family: fantasy;
 
 
 .p{
+    text-indent: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     flex-wrap: wrap;
-    width: 600px;
+    width: 930px;
     text-align: justify;
 
 }
@@ -43,9 +56,11 @@ font-family: fantasy;
     text-align: center;
 }
 .button {
+    font-family: cursive;
     background-color: blueviolet;
-    font-size: 30px;
+    font-size: 25px;
 }
 .result{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
