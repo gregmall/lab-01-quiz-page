@@ -21,7 +21,8 @@ myButton.addEventListener('click', () =>{
     const answer1 = prompt('Are cats mammals?');
     const answer2 = prompt('Do cats like to chase laser lights?');
     const answer3 = prompt('Are cats pretty much the best pet in the world');
-    console.log(answer1, answer2, answer3);
+    const answer4 = prompt('Do cats have wings?');
+    console.log(answer1, answer2, answer3, answer4);
 
 let score = 0;
 console.log(score);
@@ -38,12 +39,15 @@ if (confirmedYes(answer2)) {
 if (confirmedYes(answer3)){
     score++;
 }
+if (!confirmedYes(answer4)){
+    score++;
+}
 
 console.log(score);
-if (score ===3){
-    resultSpan.textContent = 'Hi ' + name + ', your score is: '  +  score + ' out of 3. You are a smart person';
+if (score ===4){
+    resultSpan.textContent = 'Hi ' + name + ', your score is: '  +  score + ' out of 4. You are a smart person';
 }else{
-    resultSpan.textContent = 'Hi ' + name + ', your score is: ' + score + ' out of 3. Maybe you should meet some cats.'
+    resultSpan.textContent = 'Hi ' + name + ', your score is: ' + score + ' out of 4. Maybe you should meet some cats.'
 }
 
 
