@@ -1,0 +1,66 @@
+.header {
+    
+    max-width: 948px;
+    text-align: center;
+    background-image: url("https://media.giphy.com/media/9V73lQx5Sa7r14IDqT/giphy.gif");
+    height: 125px;
+    font-size: 70px;
+    font-family: cursive;
+
+}
+.body {
+
+    
+background: -moz-radial-gradient(center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+background: -webkit-radial-gradient(center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+background: radial-gradient(ellipse at center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+
+font-family: fantasy;
+}
+.border {
+    border: 2px outset #000000;
+}
+.h {
+    text-align: center;
+    color: rosybrown;
+}
+
+.main {
+    max-width: 948px;
+}
+
+
+
+.flex-container {
+        font-family: monospace;
+        font-size: 15px;
+        width: 948px;
+        text-align: left;
+        display: flex;
+        justify-content: space-around;
+        
+        
+      }
+
+
+
+.p{
+    text-indent: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+    width: 930px;
+    text-align: justify;
+
+}
+.quiz {
+    text-align: center;
+}
+.button {
+    font-family: cursive;
+    background-color: blueviolet;
+    font-size: 25px;
+}
+.result{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
